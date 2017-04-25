@@ -1,0 +1,1038 @@
+fileFormatVersion: 2
+guid: e1fe1c418e3d9e547b612b9a8da3eb91
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: High
+    100002: High 1
+    100004: High 10
+    100006: High 11
+    100008: High 12
+    100010: High 13
+    100012: High 14
+    100014: High 15
+    100016: High 16
+    100018: High 17
+    100020: High 18
+    100022: High 19
+    100024: High 2
+    100026: High 20
+    100028: High 21
+    100030: High 22
+    100032: High 23
+    100034: High 24
+    100036: High 25
+    100038: High 26
+    100040: High 27
+    100042: High 28
+    100044: High 29
+    100046: High 3
+    100048: High 30
+    100050: High 31
+    100052: High 32
+    100054: High 33
+    100056: High 34
+    100058: High 35
+    100060: High 36
+    100062: High 37
+    100064: High 38
+    100066: High 39
+    100068: High 4
+    100070: High 40
+    100072: High 41
+    100074: High 42
+    100076: High 43
+    100078: High 44
+    100080: High 45
+    100082: High 46
+    100084: High 47
+    100086: High 48
+    100088: High 49
+    100090: High 5
+    100092: High 50
+    100094: High 51
+    100096: High 52
+    100098: High 53
+    100100: High 54
+    100102: High 55
+    100104: High 56
+    100106: High 57
+    100108: High 58
+    100110: High 59
+    100112: High 6
+    100114: High 60
+    100116: High 61
+    100118: High 62
+    100120: High 63
+    100122: High 7
+    100124: High 8
+    100126: High 9
+    100128: //RootNode
+    100130: Low
+    100132: Low 1
+    100134: Low 10
+    100136: Low 11
+    100138: Low 12
+    100140: Low 13
+    100142: Low 14
+    100144: Low 15
+    100146: Low 16
+    100148: Low 17
+    100150: Low 18
+    100152: Low 19
+    100154: Low 2
+    100156: Low 20
+    100158: Low 21
+    100160: Low 22
+    100162: Low 23
+    100164: Low 24
+    100166: Low 25
+    100168: Low 26
+    100170: Low 27
+    100172: Low 28
+    100174: Low 29
+    100176: Low 3
+    100178: Low 30
+    100180: Low 31
+    100182: Low 32
+    100184: Low 33
+    100186: Low 34
+    100188: Low 35
+    100190: Low 36
+    100192: Low 37
+    100194: Low 38
+    100196: Low 39
+    100198: Low 4
+    100200: Low 40
+    100202: Low 41
+    100204: Low 42
+    100206: Low 43
+    100208: Low 44
+    100210: Low 45
+    100212: Low 46
+    100214: Low 47
+    100216: Low 48
+    100218: Low 49
+    100220: Low 5
+    100222: Low 50
+    100224: Low 51
+    100226: Low 52
+    100228: Low 53
+    100230: Low 54
+    100232: Low 55
+    100234: Low 56
+    100236: Low 57
+    100238: Low 58
+    100240: Low 59
+    100242: Low 6
+    100244: Low 60
+    100246: Low 61
+    100248: Low 62
+    100250: Low 63
+    100252: Low 7
+    100254: Low 8
+    100256: Low 9
+    100258: Medium
+    100260: Medium 1
+    100262: Medium 10
+    100264: Medium 11
+    100266: Medium 12
+    100268: Medium 13
+    100270: Medium 14
+    100272: Medium 15
+    100274: Medium 16
+    100276: Medium 17
+    100278: Medium 18
+    100280: Medium 19
+    100282: Medium 2
+    100284: Medium 20
+    100286: Medium 21
+    100288: Medium 22
+    100290: Medium 23
+    100292: Medium 24
+    100294: Medium 25
+    100296: Medium 26
+    100298: Medium 27
+    100300: Medium 28
+    100302: Medium 29
+    100304: Medium 3
+    100306: Medium 30
+    100308: Medium 31
+    100310: Medium 32
+    100312: Medium 33
+    100314: Medium 34
+    100316: Medium 35
+    100318: Medium 36
+    100320: Medium 37
+    100322: Medium 38
+    100324: Medium 39
+    100326: Medium 4
+    100328: Medium 40
+    100330: Medium 41
+    100332: Medium 42
+    100334: Medium 43
+    100336: Medium 44
+    100338: Medium 45
+    100340: Medium 46
+    100342: Medium 47
+    100344: Medium 48
+    100346: Medium 49
+    100348: Medium 5
+    100350: Medium 50
+    100352: Medium 51
+    100354: Medium 52
+    100356: Medium 53
+    100358: Medium 54
+    100360: Medium 55
+    100362: Medium 56
+    100364: Medium 57
+    100366: Medium 58
+    100368: Medium 59
+    100370: Medium 6
+    100372: Medium 60
+    100374: Medium 61
+    100376: Medium 62
+    100378: Medium 63
+    100380: Medium 7
+    100382: Medium 8
+    100384: Medium 9
+    400000: High
+    400002: High 1
+    400004: High 10
+    400006: High 11
+    400008: High 12
+    400010: High 13
+    400012: High 14
+    400014: High 15
+    400016: High 16
+    400018: High 17
+    400020: High 18
+    400022: High 19
+    400024: High 2
+    400026: High 20
+    400028: High 21
+    400030: High 22
+    400032: High 23
+    400034: High 24
+    400036: High 25
+    400038: High 26
+    400040: High 27
+    400042: High 28
+    400044: High 29
+    400046: High 3
+    400048: High 30
+    400050: High 31
+    400052: High 32
+    400054: High 33
+    400056: High 34
+    400058: High 35
+    400060: High 36
+    400062: High 37
+    400064: High 38
+    400066: High 39
+    400068: High 4
+    400070: High 40
+    400072: High 41
+    400074: High 42
+    400076: High 43
+    400078: High 44
+    400080: High 45
+    400082: High 46
+    400084: High 47
+    400086: High 48
+    400088: High 49
+    400090: High 5
+    400092: High 50
+    400094: High 51
+    400096: High 52
+    400098: High 53
+    400100: High 54
+    400102: High 55
+    400104: High 56
+    400106: High 57
+    400108: High 58
+    400110: High 59
+    400112: High 6
+    400114: High 60
+    400116: High 61
+    400118: High 62
+    400120: High 63
+    400122: High 7
+    400124: High 8
+    400126: High 9
+    400128: //RootNode
+    400130: Low
+    400132: Low 1
+    400134: Low 10
+    400136: Low 11
+    400138: Low 12
+    400140: Low 13
+    400142: Low 14
+    400144: Low 15
+    400146: Low 16
+    400148: Low 17
+    400150: Low 18
+    400152: Low 19
+    400154: Low 2
+    400156: Low 20
+    400158: Low 21
+    400160: Low 22
+    400162: Low 23
+    400164: Low 24
+    400166: Low 25
+    400168: Low 26
+    400170: Low 27
+    400172: Low 28
+    400174: Low 29
+    400176: Low 3
+    400178: Low 30
+    400180: Low 31
+    400182: Low 32
+    400184: Low 33
+    400186: Low 34
+    400188: Low 35
+    400190: Low 36
+    400192: Low 37
+    400194: Low 38
+    400196: Low 39
+    400198: Low 4
+    400200: Low 40
+    400202: Low 41
+    400204: Low 42
+    400206: Low 43
+    400208: Low 44
+    400210: Low 45
+    400212: Low 46
+    400214: Low 47
+    400216: Low 48
+    400218: Low 49
+    400220: Low 5
+    400222: Low 50
+    400224: Low 51
+    400226: Low 52
+    400228: Low 53
+    400230: Low 54
+    400232: Low 55
+    400234: Low 56
+    400236: Low 57
+    400238: Low 58
+    400240: Low 59
+    400242: Low 6
+    400244: Low 60
+    400246: Low 61
+    400248: Low 62
+    400250: Low 63
+    400252: Low 7
+    400254: Low 8
+    400256: Low 9
+    400258: Medium
+    400260: Medium 1
+    400262: Medium 10
+    400264: Medium 11
+    400266: Medium 12
+    400268: Medium 13
+    400270: Medium 14
+    400272: Medium 15
+    400274: Medium 16
+    400276: Medium 17
+    400278: Medium 18
+    400280: Medium 19
+    400282: Medium 2
+    400284: Medium 20
+    400286: Medium 21
+    400288: Medium 22
+    400290: Medium 23
+    400292: Medium 24
+    400294: Medium 25
+    400296: Medium 26
+    400298: Medium 27
+    400300: Medium 28
+    400302: Medium 29
+    400304: Medium 3
+    400306: Medium 30
+    400308: Medium 31
+    400310: Medium 32
+    400312: Medium 33
+    400314: Medium 34
+    400316: Medium 35
+    400318: Medium 36
+    400320: Medium 37
+    400322: Medium 38
+    400324: Medium 39
+    400326: Medium 4
+    400328: Medium 40
+    400330: Medium 41
+    400332: Medium 42
+    400334: Medium 43
+    400336: Medium 44
+    400338: Medium 45
+    400340: Medium 46
+    400342: Medium 47
+    400344: Medium 48
+    400346: Medium 49
+    400348: Medium 5
+    400350: Medium 50
+    400352: Medium 51
+    400354: Medium 52
+    400356: Medium 53
+    400358: Medium 54
+    400360: Medium 55
+    400362: Medium 56
+    400364: Medium 57
+    400366: Medium 58
+    400368: Medium 59
+    400370: Medium 6
+    400372: Medium 60
+    400374: Medium 61
+    400376: Medium 62
+    400378: Medium 63
+    400380: Medium 7
+    400382: Medium 8
+    400384: Medium 9
+    2300000: High
+    2300002: High 1
+    2300004: High 10
+    2300006: High 11
+    2300008: High 12
+    2300010: High 13
+    2300012: High 14
+    2300014: High 15
+    2300016: High 16
+    2300018: High 17
+    2300020: High 18
+    2300022: High 19
+    2300024: High 2
+    2300026: High 20
+    2300028: High 21
+    2300030: High 22
+    2300032: High 23
+    2300034: High 24
+    2300036: High 25
+    2300038: High 26
+    2300040: High 27
+    2300042: High 28
+    2300044: High 29
+    2300046: High 3
+    2300048: High 30
+    2300050: High 31
+    2300052: High 32
+    2300054: High 33
+    2300056: High 34
+    2300058: High 35
+    2300060: High 36
+    2300062: High 37
+    2300064: High 38
+    2300066: High 39
+    2300068: High 4
+    2300070: High 40
+    2300072: High 41
+    2300074: High 42
+    2300076: High 43
+    2300078: High 44
+    2300080: High 45
+    2300082: High 46
+    2300084: High 47
+    2300086: High 48
+    2300088: High 49
+    2300090: High 5
+    2300092: High 50
+    2300094: High 51
+    2300096: High 52
+    2300098: High 53
+    2300100: High 54
+    2300102: High 55
+    2300104: High 56
+    2300106: High 57
+    2300108: High 58
+    2300110: High 59
+    2300112: High 6
+    2300114: High 60
+    2300116: High 61
+    2300118: High 62
+    2300120: High 63
+    2300122: High 7
+    2300124: High 8
+    2300126: High 9
+    2300128: Low
+    2300130: Low 1
+    2300132: Low 10
+    2300134: Low 11
+    2300136: Low 12
+    2300138: Low 13
+    2300140: Low 14
+    2300142: Low 15
+    2300144: Low 16
+    2300146: Low 17
+    2300148: Low 18
+    2300150: Low 19
+    2300152: Low 2
+    2300154: Low 20
+    2300156: Low 21
+    2300158: Low 22
+    2300160: Low 23
+    2300162: Low 24
+    2300164: Low 25
+    2300166: Low 26
+    2300168: Low 27
+    2300170: Low 28
+    2300172: Low 29
+    2300174: Low 3
+    2300176: Low 30
+    2300178: Low 31
+    2300180: Low 32
+    2300182: Low 33
+    2300184: Low 34
+    2300186: Low 35
+    2300188: Low 36
+    2300190: Low 37
+    2300192: Low 38
+    2300194: Low 39
+    2300196: Low 4
+    2300198: Low 40
+    2300200: Low 41
+    2300202: Low 42
+    2300204: Low 43
+    2300206: Low 44
+    2300208: Low 45
+    2300210: Low 46
+    2300212: Low 47
+    2300214: Low 48
+    2300216: Low 49
+    2300218: Low 5
+    2300220: Low 50
+    2300222: Low 51
+    2300224: Low 52
+    2300226: Low 53
+    2300228: Low 54
+    2300230: Low 55
+    2300232: Low 56
+    2300234: Low 57
+    2300236: Low 58
+    2300238: Low 59
+    2300240: Low 6
+    2300242: Low 60
+    2300244: Low 61
+    2300246: Low 62
+    2300248: Low 63
+    2300250: Low 7
+    2300252: Low 8
+    2300254: Low 9
+    2300256: Medium
+    2300258: Medium 1
+    2300260: Medium 10
+    2300262: Medium 11
+    2300264: Medium 12
+    2300266: Medium 13
+    2300268: Medium 14
+    2300270: Medium 15
+    2300272: Medium 16
+    2300274: Medium 17
+    2300276: Medium 18
+    2300278: Medium 19
+    2300280: Medium 2
+    2300282: Medium 20
+    2300284: Medium 21
+    2300286: Medium 22
+    2300288: Medium 23
+    2300290: Medium 24
+    2300292: Medium 25
+    2300294: Medium 26
+    2300296: Medium 27
+    2300298: Medium 28
+    2300300: Medium 29
+    2300302: Medium 3
+    2300304: Medium 30
+    2300306: Medium 31
+    2300308: Medium 32
+    2300310: Medium 33
+    2300312: Medium 34
+    2300314: Medium 35
+    2300316: Medium 36
+    2300318: Medium 37
+    2300320: Medium 38
+    2300322: Medium 39
+    2300324: Medium 4
+    2300326: Medium 40
+    2300328: Medium 41
+    2300330: Medium 42
+    2300332: Medium 43
+    2300334: Medium 44
+    2300336: Medium 45
+    2300338: Medium 46
+    2300340: Medium 47
+    2300342: Medium 48
+    2300344: Medium 49
+    2300346: Medium 5
+    2300348: Medium 50
+    2300350: Medium 51
+    2300352: Medium 52
+    2300354: Medium 53
+    2300356: Medium 54
+    2300358: Medium 55
+    2300360: Medium 56
+    2300362: Medium 57
+    2300364: Medium 58
+    2300366: Medium 59
+    2300368: Medium 6
+    2300370: Medium 60
+    2300372: Medium 61
+    2300374: Medium 62
+    2300376: Medium 63
+    2300378: Medium 7
+    2300380: Medium 8
+    2300382: Medium 9
+    3300000: High
+    3300002: High 1
+    3300004: High 10
+    3300006: High 11
+    3300008: High 12
+    3300010: High 13
+    3300012: High 14
+    3300014: High 15
+    3300016: High 16
+    3300018: High 17
+    3300020: High 18
+    3300022: High 19
+    3300024: High 2
+    3300026: High 20
+    3300028: High 21
+    3300030: High 22
+    3300032: High 23
+    3300034: High 24
+    3300036: High 25
+    3300038: High 26
+    3300040: High 27
+    3300042: High 28
+    3300044: High 29
+    3300046: High 3
+    3300048: High 30
+    3300050: High 31
+    3300052: High 32
+    3300054: High 33
+    3300056: High 34
+    3300058: High 35
+    3300060: High 36
+    3300062: High 37
+    3300064: High 38
+    3300066: High 39
+    3300068: High 4
+    3300070: High 40
+    3300072: High 41
+    3300074: High 42
+    3300076: High 43
+    3300078: High 44
+    3300080: High 45
+    3300082: High 46
+    3300084: High 47
+    3300086: High 48
+    3300088: High 49
+    3300090: High 5
+    3300092: High 50
+    3300094: High 51
+    3300096: High 52
+    3300098: High 53
+    3300100: High 54
+    3300102: High 55
+    3300104: High 56
+    3300106: High 57
+    3300108: High 58
+    3300110: High 59
+    3300112: High 6
+    3300114: High 60
+    3300116: High 61
+    3300118: High 62
+    3300120: High 63
+    3300122: High 7
+    3300124: High 8
+    3300126: High 9
+    3300128: Low
+    3300130: Low 1
+    3300132: Low 10
+    3300134: Low 11
+    3300136: Low 12
+    3300138: Low 13
+    3300140: Low 14
+    3300142: Low 15
+    3300144: Low 16
+    3300146: Low 17
+    3300148: Low 18
+    3300150: Low 19
+    3300152: Low 2
+    3300154: Low 20
+    3300156: Low 21
+    3300158: Low 22
+    3300160: Low 23
+    3300162: Low 24
+    3300164: Low 25
+    3300166: Low 26
+    3300168: Low 27
+    3300170: Low 28
+    3300172: Low 29
+    3300174: Low 3
+    3300176: Low 30
+    3300178: Low 31
+    3300180: Low 32
+    3300182: Low 33
+    3300184: Low 34
+    3300186: Low 35
+    3300188: Low 36
+    3300190: Low 37
+    3300192: Low 38
+    3300194: Low 39
+    3300196: Low 4
+    3300198: Low 40
+    3300200: Low 41
+    3300202: Low 42
+    3300204: Low 43
+    3300206: Low 44
+    3300208: Low 45
+    3300210: Low 46
+    3300212: Low 47
+    3300214: Low 48
+    3300216: Low 49
+    3300218: Low 5
+    3300220: Low 50
+    3300222: Low 51
+    3300224: Low 52
+    3300226: Low 53
+    3300228: Low 54
+    3300230: Low 55
+    3300232: Low 56
+    3300234: Low 57
+    3300236: Low 58
+    3300238: Low 59
+    3300240: Low 6
+    3300242: Low 60
+    3300244: Low 61
+    3300246: Low 62
+    3300248: Low 63
+    3300250: Low 7
+    3300252: Low 8
+    3300254: Low 9
+    3300256: Medium
+    3300258: Medium 1
+    3300260: Medium 10
+    3300262: Medium 11
+    3300264: Medium 12
+    3300266: Medium 13
+    3300268: Medium 14
+    3300270: Medium 15
+    3300272: Medium 16
+    3300274: Medium 17
+    3300276: Medium 18
+    3300278: Medium 19
+    3300280: Medium 2
+    3300282: Medium 20
+    3300284: Medium 21
+    3300286: Medium 22
+    3300288: Medium 23
+    3300290: Medium 24
+    3300292: Medium 25
+    3300294: Medium 26
+    3300296: Medium 27
+    3300298: Medium 28
+    3300300: Medium 29
+    3300302: Medium 3
+    3300304: Medium 30
+    3300306: Medium 31
+    3300308: Medium 32
+    3300310: Medium 33
+    3300312: Medium 34
+    3300314: Medium 35
+    3300316: Medium 36
+    3300318: Medium 37
+    3300320: Medium 38
+    3300322: Medium 39
+    3300324: Medium 4
+    3300326: Medium 40
+    3300328: Medium 41
+    3300330: Medium 42
+    3300332: Medium 43
+    3300334: Medium 44
+    3300336: Medium 45
+    3300338: Medium 46
+    3300340: Medium 47
+    3300342: Medium 48
+    3300344: Medium 49
+    3300346: Medium 5
+    3300348: Medium 50
+    3300350: Medium 51
+    3300352: Medium 52
+    3300354: Medium 53
+    3300356: Medium 54
+    3300358: Medium 55
+    3300360: Medium 56
+    3300362: Medium 57
+    3300364: Medium 58
+    3300366: Medium 59
+    3300368: Medium 6
+    3300370: Medium 60
+    3300372: Medium 61
+    3300374: Medium 62
+    3300376: Medium 63
+    3300378: Medium 7
+    3300380: Medium 8
+    3300382: Medium 9
+    4300000: High
+    4300002: Medium
+    4300004: Low
+    4300006: High
+    4300008: Medium
+    4300010: Low
+    4300012: High
+    4300014: Medium
+    4300016: Low
+    4300018: High
+    4300020: Medium
+    4300022: Low
+    4300024: High
+    4300026: Medium
+    4300028: Low
+    4300030: High
+    4300032: Medium
+    4300034: Low
+    4300036: High
+    4300038: Medium
+    4300040: Low
+    4300042: High
+    4300044: Medium
+    4300046: Low
+    4300048: High
+    4300050: Medium
+    4300052: Low
+    4300054: High
+    4300056: Medium
+    4300058: Low
+    4300060: High
+    4300062: Medium
+    4300064: Low
+    4300066: High
+    4300068: Medium
+    4300070: Low
+    4300072: High
+    4300074: Medium
+    4300076: Low
+    4300078: High
+    4300080: Medium
+    4300082: Low
+    4300084: High
+    4300086: Medium
+    4300088: Low
+    4300090: High
+    4300092: Medium
+    4300094: Low
+    4300096: High
+    4300098: Medium
+    4300100: Low
+    4300102: High
+    4300104: Medium
+    4300106: Low
+    4300108: High
+    4300110: Medium
+    4300112: Low
+    4300114: High
+    4300116: Medium
+    4300118: Low
+    4300120: High
+    4300122: Medium
+    4300124: Low
+    4300126: High
+    4300128: Medium
+    4300130: Low
+    4300132: High
+    4300134: Medium
+    4300136: Low
+    4300138: High
+    4300140: Medium
+    4300142: Low
+    4300144: High
+    4300146: Medium
+    4300148: Low
+    4300150: High
+    4300152: Medium
+    4300154: Low
+    4300156: High
+    4300158: Medium
+    4300160: Low
+    4300162: High
+    4300164: Medium
+    4300166: Low
+    4300168: High
+    4300170: Medium
+    4300172: Low
+    4300174: High
+    4300176: Medium
+    4300178: Low
+    4300180: High
+    4300182: Medium
+    4300184: Low
+    4300186: High
+    4300188: Medium
+    4300190: Low
+    4300192: High
+    4300194: Medium
+    4300196: Low
+    4300198: High
+    4300200: Medium
+    4300202: Low
+    4300204: High
+    4300206: Medium
+    4300208: Low
+    4300210: High
+    4300212: Medium
+    4300214: Low
+    4300216: High
+    4300218: Medium
+    4300220: Low
+    4300222: High
+    4300224: Medium
+    4300226: Low
+    4300228: High
+    4300230: Medium
+    4300232: Low
+    4300234: High
+    4300236: Medium
+    4300238: Low
+    4300240: High
+    4300242: Medium
+    4300244: Low
+    4300246: High
+    4300248: Medium
+    4300250: Low
+    4300252: High
+    4300254: Medium
+    4300256: Low
+    4300258: High
+    4300260: Medium
+    4300262: Low
+    4300264: High
+    4300266: Medium
+    4300268: Low
+    4300270: High
+    4300272: Medium
+    4300274: Low
+    4300276: High
+    4300278: Medium
+    4300280: Low
+    4300282: High
+    4300284: Medium
+    4300286: Low
+    4300288: High
+    4300290: Medium
+    4300292: Low
+    4300294: High
+    4300296: Medium
+    4300298: Low
+    4300300: High
+    4300302: Medium
+    4300304: Low
+    4300306: High
+    4300308: Medium
+    4300310: Low
+    4300312: High
+    4300314: Medium
+    4300316: Low
+    4300318: High
+    4300320: Medium
+    4300322: Low
+    4300324: High
+    4300326: Medium
+    4300328: Low
+    4300330: High
+    4300332: Medium
+    4300334: Low
+    4300336: High
+    4300338: Medium
+    4300340: Low
+    4300342: High
+    4300344: Medium
+    4300346: Low
+    4300348: High
+    4300350: Medium
+    4300352: Low
+    4300354: High
+    4300356: Medium
+    4300358: Low
+    4300360: High
+    4300362: Medium
+    4300364: Low
+    4300366: High
+    4300368: Medium
+    4300370: Low
+    4300372: High
+    4300374: Medium
+    4300376: Low
+    4300378: High
+    4300380: Medium
+    4300382: Low
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
