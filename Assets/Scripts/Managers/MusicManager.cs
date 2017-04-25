@@ -14,7 +14,18 @@ public class MusicManager : Singleton<MusicManager> {
     {
         get
         {
+            if (PlayerPrefs.HasKey("AntColonyBlitz_MusicEnable"))
+            {
+                _enable = PlayerPrefs.GetInt("AntColonyBlitz_MusicEnable") == 1 ? true : false;
+            }
+
             return _enable;
+        }
+        set
+        {
+            _enable = value;
+            int enableValue = _enable == true ? 1 : 0;
+            PlayerPrefs.SetInt("AntColonyBlitz_MusicEnable", enableValue);
         }
     }
 
@@ -27,15 +38,15 @@ public class MusicManager : Singleton<MusicManager> {
         }
 
         _source = GetComponent<AudioSource>();
-
-        _enable = _source.mute;
-
+        
         DontDestroyOnLoad(this);
 	}
 
     public void MusicEnable(bool value)
     {
         _source.mute = value;
+
+        Enable = !value;
     }
 
 }

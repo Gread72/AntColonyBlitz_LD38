@@ -68,8 +68,4 @@ public class IntroPanel : MonoBehaviour {
         OptionsPanel.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update () {
-		
-	}
 }

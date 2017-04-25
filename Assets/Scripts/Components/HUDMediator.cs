@@ -19,9 +19,7 @@ public class HUDMediator : MonoBehaviour {
 
     private Text _messageLabel;
     private Button _exitButton;
-
-
-
+    
     private bool _gameOverOpened = false;
     
     void Awake()

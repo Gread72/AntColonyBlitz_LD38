@@ -98,9 +98,7 @@ public class AntMember : MonoBehaviour {
 
         if (Health >= 100) {
             if (Target != null) return;
-
-            //GameManager.Instance.FindSand(gameObject);
-
+            
             if (!isQueen) { 
                 GameObject go = GameManager.Instance.GetNextItem(gameObject);
                 if (go != null) Target = go.transform;

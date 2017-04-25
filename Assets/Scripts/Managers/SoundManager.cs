@@ -13,9 +13,7 @@ public class SoundManager : MonoBehaviour {
     public static string POS_HIT_AUDIO = "POS_HIT_AUDIO";
     public static string NEG_HIT_AUDIO = "NEG_HIT_AUDIO";
     public static string GAME_OVER_AUDIO = "GAME_OVER_AUDIO";
-
-    private static SoundManager instance;
-
+    
     private bool _enable = true;
 
     public static SoundManager Instance
@@ -30,12 +28,18 @@ public class SoundManager : MonoBehaviour {
     {
         get
         {
+            if (PlayerPrefs.HasKey("AntColonyBlitz_SoundEnable"))
+            {
+                _enable = PlayerPrefs.GetInt("AntColonyBlitz_SoundEnable") == 1 ? true : false;
+            }
+
             return _enable;
         }
-
         set
         {
             _enable = value;
+            int enableValue = _enable == true ? 1 : 0;
+            PlayerPrefs.SetInt("AntColonyBlitz_SoundEnable", enableValue);
         }
     }
 
@@ -77,11 +81,5 @@ public class SoundManager : MonoBehaviour {
     {
         Enable = value;
     }
-
-    //// Update is called once per frame
-    //void Update () {
-
-    //}
-
-
+    
 }
