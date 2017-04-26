@@ -39,6 +39,14 @@ public class IntroPanel : MonoBehaviour {
 
     }
 
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
+
     private void OnStart()
     {
         SceneManager.LoadScene("GameScene");
@@ -67,5 +75,5 @@ public class IntroPanel : MonoBehaviour {
     {
         OptionsPanel.gameObject.SetActive(false);
     }
-
+    
 }
