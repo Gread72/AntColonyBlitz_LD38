@@ -17,6 +17,7 @@ public class AntMember : MonoBehaviour {
 
     private Vector3 _originalPosition;
     private int _currentSpeed;
+    private BoxCollider _collider;
 
     private bool _particleFound = false;
     public bool ParticleFound
@@ -63,6 +64,8 @@ public class AntMember : MonoBehaviour {
     void Start () {
         _navAgent = gameObject.GetComponent<NavMeshAgent>();
         _navAgent.speed = Speed;
+
+        _collider = gameObject.GetComponent<BoxCollider>();
 
         _navAgent.isStopped = false;
 
@@ -113,6 +116,7 @@ public class AntMember : MonoBehaviour {
             IsKilled = true;
             SoundManager.Instance.PlaySound(SoundManager.NEG_HIT_AUDIO);
             GameManager.Instance.DeadAnts += 1;
+            _collider.isTrigger = true;
         }
 
         if (_currentSpeed != Speed)

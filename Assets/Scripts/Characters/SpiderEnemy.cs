@@ -13,6 +13,7 @@ public class SpiderEnemy : AbstractCharacter {
 
     private float _crawlingSpeed = 8;
     private float _attackSpeed = 12;
+    private bool _hitWaypoint = false;
 
     protected override void Reset()
     {
@@ -58,12 +59,10 @@ public class SpiderEnemy : AbstractCharacter {
 
     public void OnTriggerEnter(Collider col)
     {
-        if (col.tag == "TargetPoint")
+        if (col.tag == "TargetPoint" && _hitWaypoint == false)
         {
-            //Destroy(col.gameObject);
-            //NavMeshAgent.isStopped = true;
-            //NavMeshAgent.speed = 1;
-            if(_currentWaypointIndex < WayPoints.Length - 1) { 
+            _hitWaypoint = true;
+            if (_currentWaypointIndex < WayPoints.Length - 1) { 
                 _currentWaypointIndex += 1;
             }
             else
@@ -74,6 +73,7 @@ public class SpiderEnemy : AbstractCharacter {
             Target = CurrentWayPoint.transform;
             Speed = _crawlingSpeed;
             _anim.SetBool("Attack", false);
+            StartCoroutine("ResetHitWayPoint");
         }
 
         if (col.tag == "Ant_M")
@@ -94,6 +94,12 @@ public class SpiderEnemy : AbstractCharacter {
         _anim.SetBool("Attack", false);
         NavMeshAgent.isStopped = false;
         Speed = _crawlingSpeed;
+    }
+
+    IEnumerator ResetHitWayPoint()
+    {
+        yield return new WaitForSeconds(5f);
+        _hitWaypoint = false;
     }
 
     public void OnCollisionEnter(Collision col)
